@@ -43,7 +43,7 @@ void loop() {
     // 3. 명령어에 따른 값 누적 (더하기/빼기)
     if (cmd == 'S') {
       // STOP: 모든 값 0으로 초기화 및 정지
-      Serial.println('WHAT THE FUCK!!');
+      Serial.println('STOP');
       addSpeed = 0;
       currentSteering = 1000;
       isStopped = true;
